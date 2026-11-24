@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Userspace Reboot</string>
+    <string name="header_subtitle">MagicOS 9.0 • Android 15 Engine</string>
+    <string name="status_checking_root">Checking Root…</string>
+    <string name="status_no_root">Root Required</string>
+    <string name="status_audit_required">Audit Required</string>
+    <string name="status_ready">Ready to Reboot</string>
+    <string name="status_rebooting">Userspace Rebooting…</string>
+    <string name="status_completed">Reboot Verified</string>
+    <string name="status_failed">Reboot Failed</string>
+    <string name="section_telemetry">SYSTEM TELEMETRY</string>
+    <string name="section_controls">EXECUTION &amp; SAFETY GATE</string>
+    <string name="section_verification">POST-REBOOT VERIFICATION</string>
+    <string name="section_logs">LIVE ENGINE LOGS</string>
+    <string name="action_run_audit">Pre-Flight Dry-Run Audit</string>
+    <string name="action_userspace_reboot">Userspace Reboot</string>
+    <string name="action_view_audit_details">Inspect Audit Breakdown</string>
+    <string name="dialog_confirm_title">Userspace Reboot</string>
+    <string name="dialog_confirm_body">Restart Android userspace, HALs, SurfaceFlinger, Zygote, and KernelSU Next module stages without cycling the Linux kernel. All running apps will close; User 0 CE storage stays unlocked.</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_proceed">Reboot</string>
+</resources>
